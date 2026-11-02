@@ -1,0 +1,16 @@
+.gradle/
+.idea/
+.kotlin/
+.claude/
+build/
+app/build/
+local.properties
+*.iml
+*.litertlm
+.cxx/
+app/.cxx/
+*.gguf
+/third_party/llama.cpp/models/*.gguf
+/third_party/shaderc/bin/*.exe
+.DS_Store
+Thumbs.db

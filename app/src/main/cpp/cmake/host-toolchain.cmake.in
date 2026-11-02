@@ -1,0 +1,7 @@
+# Toolchain for programs that run on the build machine (vulkan-shaders-gen).
+set(CMAKE_C_COMPILER "@EDGE_HOST_CC_PATH@")
+set(CMAKE_CXX_COMPILER "@EDGE_HOST_CXX_PATH@")
+set(CMAKE_MAKE_PROGRAM "@EDGE_MAKE_PROGRAM@" CACHE FILEPATH "" FORCE)
+set(CMAKE_BUILD_TYPE Release)
+# Link the C/C++ runtime statically so the tool runs without the compiler's DLLs on PATH.
+set(CMAKE_EXE_LINKER_FLAGS_INIT "-static")

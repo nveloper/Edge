@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Edge</string>
+
+    <!-- Common -->
+    <string name="copy">Copy</string>
+    <string name="copied">Copied</string>
+    <string name="refresh">Refresh</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="retry">Retry</string>
+    <string name="pause">Pause</string>
+    <string name="queued">Queued…</string>
+    <string name="download">Download</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="use">Use</string>
+    <string name="back">Back</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="off">Off</string>
+    <string name="low_ram">Low RAM</string>
+
+    <!-- Tabs -->
+    <string name="tab_server">Server</string>
+    <string name="tab_models">Models</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_logs">Logs</string>
+    <string name="clear_logs">Clear logs</string>
+
+    <!-- Server tab -->
+    <string name="api_server">API server</string>
+    <string name="server_on">OpenAI-compatible · port %d</string>
+    <string name="server_off">Off</string>
+    <string name="running">Running</string>
+    <string name="stopped">Stopped</string>
+    <string name="endpoint">Endpoint</string>
+    <string name="start_server">Start server</string>
+    <string name="stop_server">Stop server</string>
+    <string name="model_none_autoload">No model · loads when the server starts</string>
+    <string name="model_loading">Loading · %s</string>
+    <string name="model_load_failed">Load failed</string>
+    <string name="open_models">Models</string>
+    <string name="emulator_hint">Emulator: run %1$s, then use %2$s</string>
+    <string name="section_performance">Performance</string>
+    <string name="stat_decode">Decode</string>
+    <string name="stat_decode_caption">Last %d tokens</string>
+    <string name="stat_ttft">First token</string>
+    <string name="cache_reused">Cache reused</string>
+    <string name="full_prefill">Full prefill</string>
+    <string name="stat_requests">Requests</string>
+    <string name="stat_requests_caption">Failed %1$d · Rejected %2$d · Active %3$d</string>
+    <string name="stat_cache_hits">Cache hits</string>
+    <string name="stat_cache_caption">Slots %1$d/%2$d · ctx %3$d</string>
+    <string name="no_model">No model</string>
+    <string name="section_device">Device</string>
+    <string name="thermal">Thermal</string>
+    <string name="headroom_unknown">No headroom data</string>
+    <string name="battery">Battery</string>
+    <string name="charging">Charging</string>
+    <string name="not_charging">Not charging</string>
+    <string name="battery_saver">Battery saver</string>
+    <string name="memory">Memory</string>
+    <string name="memory_value">%1$.1f GB free / %2$.1f GB</string>
+    <string name="emulator">Emulator</string>
+    <string name="section_self_test">Self-test</string>
+    <string name="self_test_help">Calls this server\'s API like a client would.</string>
+    <string name="run_test">Run test</string>
+    <string name="start_server_first">Start the server first</string>
+
+    <!-- Models tab -->
+    <string name="serving_model">Serving</string>
+    <string name="mock_debug">Mock (debug)</string>
+    <string name="no_model_selected">No model selected</string>
+    <string name="not_loaded">Not loaded</string>
+    <string name="loading_ellipsis">Loading…</string>
+    <string name="ready_detail">%1$s · loaded in %2$.1f s</string>
+    <string name="pill_idle">Idle</string>
+    <string name="pill_loading">Loading</string>
+    <string name="pill_ready">Ready</string>
+    <string name="pill_failed">Failed</string>
+    <string name="accelerator">Accelerator</string>
+    <string name="reload">Reload</string>
+    <string name="active_in_use">In use</string>
+    <string name="active_loading">Loading</string>
+    <string name="active_failed">Failed</string>
+    <string name="active_selected">Selected</string>
+    <string name="importing">Importing %s</string>
+    <string name="imported">Imported %s</string>
+    <string name="find_gguf">Find GGUF on Hugging Face</string>
+    <string name="import_file">Import file</string>
+    <string name="add_url">Add URL</string>
+    <string name="parts_count">%d parts</string>
+    <string name="missing_parts">%d part(s) still missing</string>
+    <string name="embedding_chip">Embeddings</string>
+    <string name="mmproj_label">Multimodal (mmproj)</string>
+    <string name="none">None</string>
+    <string name="section_mmproj">Multimodal projectors</string>
+    <string name="downloaded_attach_in_models">Downloaded · attach it to a model in Models</string>
+    <string name="section_my_models">My models</string>
+    <string name="my_models_empty">No models yet.</string>
+    <string name="section_litert">LiteRT-LM models</string>
+    <string name="section_debug">Debug</string>
+    <string name="delete_model">Delete model</string>
+    <string name="delete_model_body">Delete %1$s (%2$s)?</string>
+    <string name="delete_model_active">It will be unloaded first.</string>
+    <string name="tag_recommended">Recommended</string>
+    <string name="tag_token">Token required</string>
+    <string name="model_page">Model page</string>
+    <string name="gated_help">Accept the license on the model page and add a Hugging Face token in Settings.</string>
+    <string name="resume_percent">Resume (%d%%)</string>
+    <string name="download_size">Download · %s</string>
+    <string name="mock_backend">Mock backend</string>
+    <string name="mock_help">Tests the API without a model. /error and /long simulate failures.</string>
+    <string name="mock_speed">Speed</string>
+    <string name="url_title">Add model by URL</string>
+    <string name="url_help">Direct link to a .gguf or .litertlm file.</string>
+
+    <!-- Hugging Face browser -->
+    <string name="hf_search_hint">Model name (e.g. gemma, qwen3)</string>
+    <string name="search">Search</string>
+    <string name="search_failed">Search failed</string>
+    <string name="files_failed">Couldn\'t load the file list</string>
+    <string name="page">Page</string>
+    <string name="gated_repo">Gated</string>
+    <string name="quant_help">Smaller is faster but lower quality. Q4_0 suits OpenCL.</string>
+    <string name="no_gguf">No GGUF files in this repo.</string>
+    <string name="fit_ok">Fits</string>
+    <string name="fit_tight">Tight</string>
+    <string name="tag_opencl">OpenCL</string>
+    <string name="downloaded_use_in_models">Downloaded · use it in Models</string>
+
+    <!-- Settings tab -->
+    <string name="section_server">Server</string>
+    <string name="stop_to_edit">Stop the server to change the port or API key.</string>
+    <string name="port">Port</string>
+    <string name="api_key">API key</string>
+    <string name="api_key_placeholder">Empty = no auth</string>
+    <string name="api_key_help">Clients send Authorization: Bearer &lt;key&gt;.</string>
+    <string name="queue_size">Queue</string>
+    <string name="queue_help">Requests beyond this get 429.</string>
+    <string name="section_context">Inference</string>
+    <string name="context_length">Context length</string>
+    <string name="context_help">Prompt + reply tokens</string>
+    <string name="tokens_value">%d tokens</string>
+    <string name="kv_cache">KV cache</string>
+    <string name="kv_q8">Q8_0 · half memory</string>
+    <string name="kv_help">Q8_0 roughly doubles the context that fits. Vulkan only: Adreno OpenCL would move attention to the CPU, so it stays F16 there.</string>
+    <string name="on_overflow">When too long</string>
+    <string name="overflow_truncate">Drop oldest turns</string>
+    <string name="overflow_error">Return 400</string>
+    <string name="cache_slots">Conversation cache</string>
+    <string name="cache_help">Keeps KV cache per conversation.</string>
+    <string name="reload_to_apply">Reload the model to apply.</string>
+    <string name="section_power">Power</string>
+    <string name="wake_lock">Keep CPU awake</string>
+    <string name="wake_always">Always</string>
+    <string name="wake_during_request">During requests</string>
+    <string name="pill_on">On</string>
+    <string name="gpu_failed_title">Couldn\'t load on this phone\'s GPU</string>
+    <string name="gpu_failed_body">%1$s: %2$s\n\nThe model may not fit in GPU memory, or this GPU driver may not support it. Try a smaller quantization or another accelerator.</string>
+    <string name="try_accelerator">Try %s</string>
+    <string name="run_on_cpu">Run on CPU</string>
+    <string name="allow_cpu">Allow CPU</string>
+    <string name="allow_cpu_help">Off: CPU is not offered as an accelerator</string>
+    <string name="crash_limit">Crash limit</string>
+    <string name="crash_limit_help">Pause auto restart after this many same-cause crashes in an hour.</string>
+    <string name="notif_suspended_title">Edge auto restart paused</string>
+    <string name="suspended_text">Died %2$d times from the same cause (%1$s). Start the server to resume.</string>
+    <string name="suspended_banner">Auto restart paused: %s. Start the server to resume.</string>
+    <string name="err_cpu_disabled">CPU is disabled. Pick a GPU accelerator or allow CPU in Settings.</string>
+    <string name="auto_restart">Auto restart</string>
+    <string name="auto_restart_help">Restores the server after a reboot or kill</string>
+    <string name="auto_restart_stats">%1$d restarts · last: %2$s, %3$s</string>
+    <string name="reason_user">manual</string>
+    <string name="reason_sticky">system</string>
+    <string name="reason_boot">boot</string>
+    <string name="reason_update">update</string>
+    <string name="reason_watchdog">watchdog</string>
+    <string name="reason_notification">notification</string>
+    <string name="pill_needed">Needed</string>
+    <string name="pill_manual">Check</string>
+    <string name="standby_rare">Android marks the app as rarely used, so restarts may be delayed. Opening the app clears it.</string>
+    <string name="channel_keeper">Server alerts</string>
+    <string name="notif_stopped_title">Edge server stopped</string>
+    <string name="notif_stopped_text">Tap to restart</string>
+    <string name="oem_title">%s background settings</string>
+    <string name="oem_title_generic">App battery settings</string>
+    <string name="oem_info">Vendor background limits</string>
+    <string name="hf_token">Access token</string>
+    <string name="hf_token_help">Only for gated models. Sent only to huggingface.co.</string>
+    <string name="hf_get_token">Get a token</string>
+    <string name="section_about">About</string>
+    <string name="about_version">Version %s</string>
+
+    <!-- Logs tab -->
+    <string name="filter_all">All</string>
+    <string name="filter_warn">Warnings</string>
+    <string name="filter_error">Errors</string>
+    <string name="logs_empty">No logs</string>
+
+    <!-- Vendor power steps -->
+    <string name="step_xiaomi_autostart">Allow Autostart</string>
+    <string name="step_xiaomi_battery">Battery saver: No restrictions</string>
+    <string name="step_xiaomi_lock">Lock the app in Recents</string>
+    <string name="step_samsung_never_sleep">Add to Never sleeping apps</string>
+    <string name="step_samsung_unused">Turn off Put unused apps to sleep</string>
+    <string name="step_huawei_manual">App launch: Manage manually, allow all</string>
+    <string name="step_oppo_background">Allow background activity</string>
+    <string name="step_allow_autostart">Allow auto launch</string>
+    <string name="step_vivo_background">Allow high background power use</string>
+    <string name="step_generic_battery">App info → Battery → Unrestricted</string>
+
+    <!-- Notifications -->
+    <string name="channel_server">Inference server</string>
+    <string name="channel_downloads">Model downloads</string>
+    <string name="notif_server_title">Edge API server</string>
+    <string name="notif_starting">Starting…</string>
+    <string name="notif_server_text">:%1$d · %2$s · done %3$d · active %4$d</string>
+    <string name="stop">Stop</string>
+    <string name="notif_downloading">Downloading %s</string>
+
+    <!-- Errors -->
+    <string name="err_no_gguf">No GGUF model selected, or the file is missing.</string>
+    <string name="err_no_model">No model selected, or the file is missing.</string>
+    <string name="err_no_device">This phone has no %s device</string>
+    <string name="err_device_failed">%s couldn\'t load the model (details in Logs)</string>
+    <string name="err_mmproj_load">Couldn\'t load the mmproj %1$s: %2$s</string>
+    <string name="err_gguf_load">Couldn\'t load GGUF: %s</string>
+    <string name="err_context">Couldn\'t create a %d-token context. Try a shorter context.</string>
+    <string name="err_no_space">Not enough storage (%1$s needed, %2$s free)</string>
+    <string name="err_gated_no_token">Gated model: add a Hugging Face token in Settings and accept the license.</string>
+    <string name="err_denied">Access denied (HTTP %d). Check the license on the model page.</string>
+    <string name="err_http">Download failed: HTTP %d</string>
+    <string name="err_size_mismatch">Size mismatch (%1$d / %2$d bytes). Try again.</string>
+    <string name="err_save">Couldn\'t save the file</string>
+    <string name="err_network">Network error: %s</string>
+    <string name="err_download">Download failed</string>
+    <string name="err_https">Enter an https:// URL</string>
+    <string name="err_model_ext">Must point to a .gguf or .litertlm file</string>
+    <string name="err_import_ext">Only .gguf or .litertlm files can be imported: %s</string>
+    <string name="unknown_file">unknown file</string>
+    <string name="err_import_space">Not enough storage (%s needed)</string>
+    <string name="err_import">Import failed: %s</string>
+    <string name="err_hub_gated">Gated repo: add a Hugging Face token in Settings.</string>
+    <string name="err_hub_denied">Access denied (HTTP %d). Request access on the model page.</string>
+    <string name="err_hub_http">Hugging Face request failed (HTTP %d)</string>
+</resources>
