@@ -1,4 +1,4 @@
-# Edge
+# EdgeKit
 
 폰에서 직접 고른 SLM(GGUF 등)을 돌리고 **OpenAI 호환 API**로 LAN에 제공하는 Android 앱.
 OpenWebUI, LiteLLM, llama-swap 등 OpenAI API를 쓰는 클라이언트에 그대로 붙인다.
